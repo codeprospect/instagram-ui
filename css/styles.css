@@ -1,7 +1,10 @@
 /* #search {
   text-align: center;
 } */
-.navbot {
+#contbo {
+  padding-bottom: 15px;
+}
+#navbot {
   visibility: hidden;
 }
 #navadar {
@@ -14,20 +17,44 @@
   border-right: 1px;
   border-color: grey;
 }
+#buttonahs {
+  text-align: left;
+  padding: 5px;
+}
+#buttonah {
+  float: right;
+}
 #icono {
   font-size: 40px;
 }
-@media only screen and (max-width: 414px) {
-  #varsity {
-    display: none;
+#more {
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+#commento {
+  text-align: left;
+  padding: 5px;
+}
+#comments {
+  border-bottom: 2px solid grey;
+  font-size: 15px;
+  padding: 2px;
+}
+@media only screen and (max-width: 540px) {
+  #seacher {
+    visibility: hidden;
   }
-  .navbot {
+  #navadar li {
+    padding: 5px;
+  }
+  #navbot {
     visibility: visible;
   }
 }
-@media only screen and (max-width: 340px) {
+/* @media only screen and (max-width: 340px) {
   #ndogo {
     display: none;
   }
 
-}
+} */
