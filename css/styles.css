@@ -1,3 +1,33 @@
-#botoz {
-  position: fixed;
+/* #search {
+  text-align: center;
+} */
+.navbot {
+  visibility: hidden;
+}
+#navadar {
+  float:right;
+}
+#navadar li {
+  padding: 20px;
+}
+#memo {
+  border-right: 1px;
+  border-color: grey;
+}
+#icono {
+  font-size: 40px;
+}
+@media only screen and (max-width: 414px) {
+  #varsity {
+    display: none;
+  }
+  .navbot {
+    visibility: visible;
+  }
+}
+@media only screen and (max-width: 340px) {
+  #ndogo {
+    display: none;
+  }
+
 }
